@@ -21,6 +21,12 @@ class NavigationHolderImpl(
             is NavigationAction.OpenAuthScreen -> {
                 navigation.navigate(R.id.action_global_open_auth_fragment)
             }
+
+            is NavigationAction.OpenMainScreeen -> {
+                navigation.navigate(R.id.action_global_open_auth_fragment, args = Bundle().apply {
+                    putString("test", navigationAction.param)
+                })
+            }
         }
     }
 }
