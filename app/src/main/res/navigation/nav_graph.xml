@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/hostFragment">
+
+    <fragment
+        android:id="@+id/hostFragment"
+        android:name="ru.grebe.littlehh.HostFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="ru.grebe.littlehh.auth.AuthFragment">
+    </fragment>
+
+
+    <action
+        android:id="@+id/action_global_open_auth_fragment"
+        app:destination="@id/authFragment" />
+
+    <action
+        android:id="@+id/action_global_open_auth_fragment_with_param"
+        app:destination="@id/authFragment" />
+
+
+</navigation>

@@ -5,12 +5,20 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import ru.grebe.littlehh.app.R
 import ru.grebe.littlehh.auth.Test213213
+import ru.pervov.utils.NavigationAction
+import ru.pervov.utils.NavigationHolder
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), NavigationHolder {
+
+    private val navigationHolderImpl = NavigationHolderImpl(this)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val Test213213 = Test213213()
-        Log.d("checkResult", "onCreate: $Test213213")
+
+    }
+
+    override fun doNavigation(navigationAction: NavigationAction) {
+        navigationHolderImpl.doNavigation(navigationAction)
     }
 }

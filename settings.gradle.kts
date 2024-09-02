@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "littleHH"
 include(":app")
 include(":auth")
+include(":navigation")
