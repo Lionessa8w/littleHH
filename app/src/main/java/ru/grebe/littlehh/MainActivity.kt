@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import ru.grebe.littlehh.app.R
-import ru.grebe.littlehh.auth.Test213213
 import ru.pervov.utils.NavigationAction
 import ru.pervov.utils.NavigationHolder
 

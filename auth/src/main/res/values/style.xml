@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rectangle_button</item>
+
+    </style>
+    <style name="EditStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rectangle_edit</item>
+
+    </style><style name="LayoutStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rectangle_layout</item>
+
+    </style>
+</resources>
