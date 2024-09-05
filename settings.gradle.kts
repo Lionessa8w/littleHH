@@ -23,3 +23,4 @@ rootProject.name = "littleHH"
 include(":app")
 include(":auth")
 include(":navigation")
+include(":usecases")
