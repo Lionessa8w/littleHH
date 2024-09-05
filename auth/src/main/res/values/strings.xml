@@ -2,7 +2,10 @@
 <resources>
     <string name="auth">Вход в личный кабинет</string>
     <string name="job_search">Поиск работы</string>
+    <string name="job_employers">Поиск сотрудников</string>
     <string name="ok">Продолжить</string>
     <string name="sing_in">Войти с паролем</string>
-    <string name="hint">"Электронная почта или телефон"</string>
+    <string name="hint">Электронная почта или телефон</string>
+    <string name="resume_search">Размещение вакансий и доступ к базе резюме</string>
+    <string name="search">Я ищу сотрудников</string>
 </resources>
